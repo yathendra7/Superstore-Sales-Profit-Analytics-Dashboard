@@ -6,13 +6,12 @@
 
 import io
 import os
-import numpy as np
-import pandas as pd
-import streamlit as st
-import plotly.express as px
-import plotly.graph_objects as go
+import pandas as pd  # pyright: ignore[reportMissingModuleSource]
+import streamlit as st  # pyright: ignore[reportMissingImports]
+import plotly.express as px  # pyright: ignore[reportMissingImports]
+import plotly.graph_objects as go  # pyright: ignore[reportMissingImports]
 
-from PIL import Image, ImageDraw, ImageFont
+from  PIL import Image, ImageDraw, ImageFont  # pyright: ignore[reportMissingImports]
 
 
 # ============================================================
