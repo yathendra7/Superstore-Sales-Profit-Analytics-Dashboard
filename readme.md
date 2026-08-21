@@ -1,14 +1,14 @@
-# 📊 Superstore Sales & Profit Analytics Dashboard
+# 📊 Superstore Sales \& Profit Analytics Dashboard
 
-A professional **interactive Sales & Profit Analytics Dashboard** built using **Python, Pandas, Plotly, and Streamlit**. The dashboard transforms the Superstore sales dataset into meaningful business insights through interactive visualizations, KPI cards, regional analysis, product analysis, customer segmentation, trend analysis, and risk identification.
+A professional **interactive Sales \& Profit Analytics Dashboard** built using **Python, Pandas, Plotly, and Streamlit**. The dashboard transforms the Superstore sales dataset into meaningful business insights through interactive visualizations, KPI cards, regional analysis, product analysis, customer segmentation, trend analysis, and risk identification.
 
 The dashboard is designed with a **modern professional dark theme**, an attractive hero section, interactive controls, and a clean analytical interface.
 
----
+\---
 
 ## 🚀 Project Overview
 
-The Superstore Sales & Profit Analytics Dashboard helps analyze business performance across different dimensions such as:
+The Superstore Sales \& Profit Analytics Dashboard helps analyze business performance across different dimensions such as:
 
 * Sales
 * Profit
@@ -23,7 +23,7 @@ The Superstore Sales & Profit Analytics Dashboard helps analyze business perform
 
 The application allows users to interactively filter the dataset and immediately explore how sales and profitability change across different business dimensions.
 
----
+\---
 
 ## 🎯 Project Objectives
 
@@ -40,7 +40,7 @@ The main objectives of this project are to:
 9. Create a user-friendly analytical interface using Streamlit.
 10. Convert raw business data into actionable insights.
 
----
+\---
 
 ## ✨ Dashboard Features
 
@@ -52,7 +52,7 @@ The dashboard uses a modern dark-themed interface designed for professional data
 
 A visually engaging hero section introduces the dashboard and highlights its purpose before users begin exploring the analytics.
 
-### 📊 3. Sales & Profit Analytics
+### 📊 3. Sales \& Profit Analytics
 
 Analyze:
 
@@ -76,7 +76,7 @@ Key KPIs include:
 * 🧾 Total Orders
 * 💹 Profit Margin
 
----
+\---
 
 ### 🌍 5. Regional Analysis
 
@@ -90,9 +90,9 @@ The dashboard helps identify:
 * Regional sales distribution
 * Regional profit distribution
 
----
+\---
 
-### 📦 6. Category & Product Analysis
+### 📦 6. Category \& Product Analysis
 
 Explore performance across product categories and sub-categories.
 
@@ -105,7 +105,7 @@ Users can identify:
 * Loss-making products
 * Category-wise sales and profit
 
----
+\---
 
 ### 👥 7. Customer Segment Analysis
 
@@ -122,9 +122,9 @@ The dashboard provides insights into:
 * Segment contribution
 * Segment performance comparison
 
----
+\---
 
-### 📈 8. Sales & Profit Trends
+### 📈 8. Sales \& Profit Trends
 
 Interactive time-series visualizations help understand business performance over time.
 
@@ -137,7 +137,7 @@ Users can analyze:
 * Profit fluctuations
 * Seasonal business patterns
 
----
+\---
 
 ### ⚠️ 9. Loss / Risk Insights
 
@@ -154,7 +154,7 @@ Risk analysis can highlight:
 
 This allows users to move beyond simple reporting and focus on areas that may require corrective action.
 
----
+\---
 
 ### 🎛️ 10. Improved Dashboard Controls
 
@@ -169,7 +169,7 @@ Available controls can include:
 * Product filtering
 * Reset filters
 
----
+\---
 
 ### 🔎 11. Interactive Filters
 
@@ -181,7 +181,7 @@ Users can combine filters to perform detailed analysis, for example:
 
 This makes it possible to investigate specific business scenarios without manually modifying the dataset.
 
----
+\---
 
 ### 📋 12. Show / Hide Data Section
 
@@ -194,7 +194,7 @@ Users can choose whether they want to:
 * Analyze the underlying data
 * Keep the dashboard focused on visual analytics
 
----
+\---
 
 ### 🚫 13. No Raw HTML Displayed
 
@@ -202,14 +202,14 @@ The dashboard is designed as a proper Streamlit application.
 
 Raw HTML source code is **not displayed as dashboard content**. Custom styling is used only to improve the visual appearance and user experience.
 
----
+\---
 
 ## 📁 Dataset
 
 The dashboard uses the processed Superstore dataset located at:
 
 ```text
-data/processed/superstore_cleaned.csv
+data/processed/superstore\_cleaned.csv
 ```
 
 ### Dataset Information
@@ -238,21 +238,21 @@ The dataset contains business transaction information such as:
 * Discount
 * Profit
 
----
+\---
 
 ## 🛠️ Technologies Used
 
-| Technology   | Purpose                      |
-| ------------ | ---------------------------- |
-| Python       | Application development      |
-| Pandas       | Data processing and analysis |
-| NumPy        | Numerical operations         |
-| Plotly       | Interactive visualizations   |
-| Streamlit    | Dashboard development        |
-| CSV          | Dataset storage              |
-| Git & GitHub | Version control              |
+|Technology|Purpose|
+|-|-|
+|Python|Application development|
+|Pandas|Data processing and analysis|
+|NumPy|Numerical operations|
+|Plotly|Interactive visualizations|
+|Streamlit|Dashboard development|
+|CSV|Dataset storage|
+|Git \& GitHub|Version control|
 
----
+\---
 
 ## 📂 Project Structure
 
@@ -264,14 +264,14 @@ apexplanet-data-analytics/
 │   │   └── Superstore.csv
 │   │
 │   └── processed/
-│       └── superstore_cleaned.csv
+│       └── superstore\_cleaned.csv
 │
 ├── scripts/
-│   ├── check_dataset.py
-│   └── data_cleaning.py
+│   ├── check\_dataset.py
+│   └── data\_cleaning.py
 │
 ├── dashboards/
-│   └── superstore_dashboard.py
+│   └── superstore\_dashboard.py
 │
 ├── notebooks/
 │   └── analysis.ipynb
@@ -286,7 +286,7 @@ apexplanet-data-analytics/
 
 > File names may vary depending on the final project structure.
 
----
+\---
 
 ## 🧹 Data Cleaning
 
@@ -306,7 +306,7 @@ The cleaning process includes:
 
 The final dashboard uses the cleaned dataset instead of directly using the raw dataset.
 
----
+\---
 
 ## 📊 Key Analytical Areas
 
@@ -345,7 +345,7 @@ The dashboard focuses on the following analytical questions:
 * Which regions have weak profitability?
 * Which business areas could affect overall performance?
 
----
+\---
 
 ## 🎨 Dashboard Design
 
@@ -363,55 +363,55 @@ The dashboard follows a modern analytical design approach:
 * 📱 Responsive Streamlit layout
 * 🧭 Clear navigation between analytical sections
 
----
+\---
 
 ## ⚙️ Installation
 
-### 1. Clone the Repository
+### 1\. Clone the Repository
 
 ```bash
 git clone <your-github-repository-url>
 ```
 
-### 2. Navigate to the Project
+### 2\. Navigate to the Project
 
 ```bash
 cd apexplanet-data-analytics
 ```
 
-### 3. Create a Virtual Environment
+### 3\. Create a Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-### 4. Activate the Virtual Environment
+### 4\. Activate the Virtual Environment
 
 For Windows:
 
 ```bash
-venv\Scripts\activate
+venv\\Scripts\\activate
 ```
 
-### 5. Install Dependencies
+### 5\. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
+\---
 
 ## ▶️ Run the Dashboard
 
 Start the Streamlit application using:
 
 ```bash
-streamlit run dashboards/superstore_dashboard.py
+streamlit run dashboards/superstore\_dashboard.py
 ```
 
 After running the command, Streamlit will provide a local address where the dashboard can be opened in a browser.
 
----
+\---
 
 ## 📌 Requirements
 
@@ -426,20 +426,20 @@ streamlit
 
 Additional libraries can be installed according to the project's `requirements.txt`.
 
----
+\---
 
 ## 📈 Expected Output
 
 After launching the application, users can explore an interactive dashboard containing:
 
 ```text
-Superstore Sales & Profit Analytics
+Superstore Sales \& Profit Analytics
 │
 ├── 🖼️ Hero / Introduction
 │
 ├── 💰 KPI Overview
 │
-├── 📊 Sales & Profit Analytics
+├── 📊 Sales \& Profit Analytics
 │
 ├── 🌍 Regional Analysis
 │
@@ -449,14 +449,14 @@ Superstore Sales & Profit Analytics
 │
 ├── 👥 Customer Segment Analysis
 │
-├── 📈 Sales & Profit Trends
+├── 📈 Sales \& Profit Trends
 │
 ├── ⚠️ Loss / Risk Insights
 │
 └── 📋 Filtered Data
 ```
 
----
+\---
 
 ## 💡 Business Value
 
@@ -473,7 +473,7 @@ It can help businesses:
 * Identify potential risks
 * Make data-driven decisions
 
----
+\---
 
 ## 🎓 Internship Project
 
@@ -490,7 +490,7 @@ The project demonstrates practical skills in:
 * Python programming
 * Streamlit application development
 
----
+\---
 
 ## 🔮 Future Enhancements
 
@@ -507,7 +507,7 @@ Possible future improvements include:
 * 🔐 User authentication
 * 📱 Enhanced mobile responsiveness
 
----
+\---
 
 ## 👨‍💻 Author
 
@@ -516,16 +516,17 @@ Possible future improvements include:
 B.Tech Student
 Data Analytics Project — ApexPlanet Internship
 
----
+\---
 
 ## ⭐ Project Highlights
 
-> **Clean Data → Interactive Analytics → Business Insights → Better Decisions**
+> \*\*Clean Data → Interactive Analytics → Business Insights → Better Decisions\*\*
 
 This project demonstrates how a traditional sales dataset can be transformed into a **professional, interactive, and decision-oriented business intelligence dashboard** using Python and Streamlit.
 
----
+\---
 
 ## 📜 License
 
 This project is created for **educational, internship, and portfolio purposes**.
+
